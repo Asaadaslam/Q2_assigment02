@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  body{
+    color: white;
+    background-color: black;
+  }
+}
+
+@layer components{
+
+  .text-xl font-medium{
+    color: black;
+    margin-top: 500%;
+  }
+
+} 
